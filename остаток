@@ -1,0 +1,13 @@
+#include <math.h>
+#include <iostream>
+using namespace std;
+int main()
+{   
+	int a, b, k;
+	cout << "Vvedite a b";
+	cin >> a;
+	cin >> b;
+	k = a/b;
+	cout << a-k*b;
+	return 0;
+}
